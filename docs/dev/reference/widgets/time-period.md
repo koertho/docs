@@ -13,9 +13,7 @@ This widget renders a text field with a drop-down menu and is proposed to be use
 |----------------|----------------------|-----------------------------------------------------------------------------|
 | inputType      | 'timePeriod'         |                                                                             |
 | options        | array                | The options for select menu, typically time units like `['s', 'm', 'h']`  |
-
 | reference      | array                | The translation array (typically `&$GLOBALS['TL_LANG']['MSC']['timePeriod']`) |
-
 | eval.disabled  | bool (default false) | Disables the field                                                          |
 | eval.maxlength | int                  | Maximum number of characters allowed in the current field.          |
 
